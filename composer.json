@@ -1,0 +1,17 @@
+{
+    "name": "anton/hexlet-php",
+    "description": "my first composer project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Anton\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton Kalenik",
+            "email": "anton@inklake.ru"
+        }
+    ],
+    "require": {}
+}
