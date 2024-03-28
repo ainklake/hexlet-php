@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "Anton\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -15,5 +18,11 @@
     ],
     "require": {
         "illuminate/collections": "^11.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.9"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
     }
 }
