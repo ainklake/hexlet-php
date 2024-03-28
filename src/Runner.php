@@ -9,4 +9,6 @@ function run()
             return strtoupper($name);
         }
     );
+
+    return $collection;
 }
